@@ -6,14 +6,15 @@ while using tools like [Blender](https://www.blender.org/) I got curious about
 how such programs worked, and decided to learn.
 
 I tried to design things a bit seriously, so I split the project between the
-[engine library](CrowdEngine) and a [running application](RunApp) which loads
-the library. The engine uses [deferred
+[engine library](CrowdEngine) and a [running application](RunApp), which loads
+the engine library. The engine uses [deferred
 rendering](https://en.wikipedia.org/wiki/Deferred_shading) in an extensible
 pipeline decomposed in several passes. 
 
 Of course, implementing a full real-time engine is a tremendous
 task, and after a lot of work and 10k LOC down the road I had managed to get a
-lot of useful features, including basic ressource management, scene managers,
+lot of useful features, including an elementary pipeline and a base for my shader library,
+basic ressource management, scene managers,
 a mathematics library, a plugin for Maya, a noise generator, basic terrain
 generation, a lot of of utilities
 (logger, smart pointers, multithreading...), etc. However, I had to stop
@@ -21,8 +22,9 @@ working the moment it started to become really interesting, because I
 started my bachelor and didn't have time for side projects.
 
 Still, working on this engine proved very fun and I learnt (really) a lot while
-doing so, both by implementing the engine and reading computer graphics papers,
+doing so, both by implementing the engine and by reading computer graphics papers,
 tutorials and blogs. The passion I grew for computer science at that time
 definitely influenced me later on when I had to choose my area of specialization while a
 student at *École polytechnique*.
 
+![Mountain](Visuels/mountan_anim_small.gif)

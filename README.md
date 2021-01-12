@@ -15,7 +15,9 @@ Of course, implementing a full real-time engine is a tremendous
 task, and after a lot of work and 10k lines of code I had managed to get a
 handful of useful features, including an elementary pipeline and foundations for my shader library,
 basic resource management, scene managers,
-a mathematics library, a plugin for Maya, a noise generator, basic terrain
+a mathematics library, a [plugin for
+Maya](https://github.com/Kachoc/MayaExporter),
+a noise generator, basic terrain
 generation, and a lot of of utilities
 (logger, smart pointers, multithreading, etc.). However, I had to put the
 project aside the moment it started to become really interesting, because I then

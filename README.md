@@ -7,17 +7,22 @@ how such programs worked, and decided to learn.
 
 I tried to design things a bit seriously, so I split the project between the
 [engine library](CrowdEngine) and a [running application](RunApp) which loads
-the library. Of course, implementing a full real-time engine is a tremendous
+the library. The engine uses [deferred
+rendering](https://en.wikipedia.org/wiki/Deferred_shading) in an extensible
+pipeline decomposed in several passes. 
+
+Of course, implementing a full real-time engine is a tremendous
 task, and after a lot of work and 10k LOC down the road I had managed to get a
-lot of useful features, like scene managers, a mathematics library, an
-extensible pipeline divided in render passes, a light manager, a plugin for
-Maya, several shader instances, a noise generator, etc. However, I had to stop
-working on it the moment it started to become really interesting, because I
-started studying for my bachelor and didn't have time for side project.
+lot of useful features, including basic ressource management, scene managers,
+a mathematics library, a plugin for Maya, a noise generator, basic terrain
+generation, a lot of of utilities
+(logger, smart pointers, multithreading...), etc. However, I had to stop
+working the moment it started to become really interesting, because I
+started my bachelor and didn't have time for side projects.
 
 Still, working on this engine proved very fun and I learnt (really) a lot while
 doing so, both by implementing the engine and reading computer graphics papers,
-tutorials and blogs. The passion I grew for computer science at the time
-definitely influenced me later one when I had to choose my specialty while a
+tutorials and blogs. The passion I grew for computer science at that time
+definitely influenced me later on when I had to choose my area of specialization while a
 student at *École polytechnique*.
 

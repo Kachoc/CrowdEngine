@@ -17,9 +17,9 @@ lot of useful features, including an elementary pipeline and a base for my shade
 basic ressource management, scene managers,
 a mathematics library, a plugin for Maya, a noise generator, basic terrain
 generation, a lot of of utilities
-(logger, smart pointers, multithreading...), etc. However, I had to stop
-working the moment it started to become really interesting, because I
-started my bachelor and didn't have time for side projects.
+(logger, smart pointers, multithreading...), etc. However, I stopped working
+on the project the moment it started to become really interesting, because I
+had to begin my bachelor and didn't have time for side projects.
 
 Still, working on this engine proved very fun and I learnt (really) a lot while
 doing so, both by implementing the engine and by reading computer graphics papers,

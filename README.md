@@ -27,6 +27,6 @@ tutorials and blogs. The passion I grew for computer science at that time
 definitely influenced me later on when I had to choose my area of specialization while a
 student at *École polytechnique*.
 
-![Mountain](Visuels/mountain_anim_small.gif)
-
 ![Terrain](Visuels/terrain1.gif)
+
+![Mountain](Visuels/mountain_anim_small.gif)

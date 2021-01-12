@@ -1,0 +1,730 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{ee25ad8a-9eda-4265-88f4-668ba0be2c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Headers">
+      <UniqueIdentifier>{a0d93de2-ee4b-48a3-8d62-758d6e1bd71a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Sources">
+      <UniqueIdentifier>{9fc746aa-485a-4b3f-a730-529d476818b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{2b7cfa33-4888-46f8-87cc-6dc3c3d8911a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Debug">
+      <UniqueIdentifier>{004bc121-84c4-494e-a818-273866b57b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Debug\Headers">
+      <UniqueIdentifier>{8f21fd1a-9114-4e9b-83f8-7969e6a27f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Debug\Sources">
+      <UniqueIdentifier>{253c890a-16b2-4cfc-a83c-ba26002b7d12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Multithread">
+      <UniqueIdentifier>{3f235a2b-0bfc-459e-970f-bfcc574677e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Multithread\Headers">
+      <UniqueIdentifier>{372ba3e5-6477-4557-bd50-63a0459bb446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Multithread\Sources">
+      <UniqueIdentifier>{2eaa8375-92f4-4b0a-aa4a-6b2b962afa48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Diverse">
+      <UniqueIdentifier>{5a3fe8f0-b65a-4efe-a6de-e813940e7b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Diverse\Headers">
+      <UniqueIdentifier>{ce37c5e0-7483-4697-9acb-7ebd9b37cb7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Diverse\Sources">
+      <UniqueIdentifier>{ad01a742-8514-473a-8918-33f6d2b04c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{009be6b8-7673-43d7-86b4-28662d21294b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Maths">
+      <UniqueIdentifier>{93b86321-0874-44c2-94a4-7d6fd0466dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Maths\Headers">
+      <UniqueIdentifier>{0934dc52-2c95-4b0c-9834-d5851e237dab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities\Maths\Sources">
+      <UniqueIdentifier>{fcd67f67-b9ba-46a5-90ee-7ce624312831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\D3D">
+      <UniqueIdentifier>{1bdecea7-c674-4b01-8f5c-d3b6f26c1dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\D3D\Headers">
+      <UniqueIdentifier>{c4cda4b6-2bfc-4d09-abf1-7147403ec60b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\D3D\Sources">
+      <UniqueIdentifier>{cf83374d-f781-45b0-a23d-92682651820b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{f8bc1d53-91e2-470f-83b2-719ff71fd4d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{fe0760c8-19fb-4de0-bf86-1ab4648a4641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Headers">
+      <UniqueIdentifier>{75f09deb-134d-4b12-9e22-357e805bc3f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Sources">
+      <UniqueIdentifier>{84061cc0-7230-4efc-8bd5-930034e93bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{e55b2c42-47b6-4827-8d7a-59c3c4a1df81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Headers">
+      <UniqueIdentifier>{2abcba52-935d-4f56-b136-c673eaafe352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Sources">
+      <UniqueIdentifier>{c5591e60-979e-4853-89ed-814b89815325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\D3D">
+      <UniqueIdentifier>{5ad7dd69-45b6-4e58-932e-b70cc1743e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\LIB">
+      <UniqueIdentifier>{0e62e9a5-1fb1-4aee-96f3-32cadda47b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\LIB\Sources">
+      <UniqueIdentifier>{eaad6053-9e9a-417a-9926-41dd6bbd874a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\LIB\Headers">
+      <UniqueIdentifier>{a9004bac-e7bf-4cbc-b0cf-abd50e9aab5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\D3D\Headers">
+      <UniqueIdentifier>{c62a55e0-323c-47bc-ae26-7b3c1c24fd41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\D3D\Sources">
+      <UniqueIdentifier>{2fa9fe47-3cb9-4fe1-97dd-512f8312b40e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\LIB">
+      <UniqueIdentifier>{a39b8e0b-8b27-47c9-8603-79ccf1cb90a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\LIB\Headers">
+      <UniqueIdentifier>{e339ca9d-5859-4af1-ab73-e4e138ed9620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\LIB\Sources">
+      <UniqueIdentifier>{a951b0b5-65e4-4fba-bb6e-d6ffeef529bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\FX">
+      <UniqueIdentifier>{b0fb8088-ff9c-4023-8a8f-9a3d2044b74d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Shaders">
+      <UniqueIdentifier>{a8e3f68d-408f-4c75-bbc3-f75238a8ef3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Shaders\D3D">
+      <UniqueIdentifier>{5816bc5a-9e18-49e4-9b13-2add538ab87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Shaders\LIB">
+      <UniqueIdentifier>{c6190e73-4c6b-4af2-915d-c7b589a6acdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Lights">
+      <UniqueIdentifier>{6ac53b75-87ab-4429-ab56-b5a5f2e69ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Lights\D3D">
+      <UniqueIdentifier>{a4223adc-6697-4e73-ac98-be5fc2fbb9da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Lights\LIB">
+      <UniqueIdentifier>{b5a87be4-dece-4f2f-b44a-1d09bb2c51d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Lights\LIB\Headers">
+      <UniqueIdentifier>{b3bb6743-0d8d-4536-9af1-7dd0531eae31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Lights\LIB\Sources">
+      <UniqueIdentifier>{75d504c6-2b64-4424-b6cf-3be1522185ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Shaders\LIB\Headers">
+      <UniqueIdentifier>{c789d6a6-03d5-49e6-9d96-5d53d533e15e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Shaders\LIB\Sources">
+      <UniqueIdentifier>{4b5fa7ba-fa49-4657-b1ee-0d54a0e55d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Shaders\D3D\Headers">
+      <UniqueIdentifier>{722128c7-1436-4473-a7f6-4bb6d68ad364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Shaders\D3D\Sources">
+      <UniqueIdentifier>{301244fd-bd47-4675-a457-e165c3a79b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Passes">
+      <UniqueIdentifier>{0b5b77c0-d9a8-408b-afff-7abaffcbb0f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Passes\D3D">
+      <UniqueIdentifier>{8220c533-0702-49c7-8944-dddc92353343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Passes\LIB">
+      <UniqueIdentifier>{2675e6b9-c10b-4401-93fb-1e18cd43885b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Passes\LIB\Headers">
+      <UniqueIdentifier>{085565b1-e7be-4b7c-92aa-61dc92cea07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Passes\LIB\Sources">
+      <UniqueIdentifier>{f69c808d-6dbb-4246-ba2a-9b92f8048871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Passes\D3D\Headers">
+      <UniqueIdentifier>{c5a352ca-a846-4361-905d-0f0f01c9f026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Passes\D3D\Sources">
+      <UniqueIdentifier>{c844794a-9ec7-4e07-87e7-3a4af06d7e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Lights\D3D\Headers">
+      <UniqueIdentifier>{897ad868-c21f-4bd9-bca8-7a4218c81d35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Lights\D3D\Sources">
+      <UniqueIdentifier>{282b2dfb-e0a2-4c22-be71-3fbfaeec8dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{3a22401e-fd3e-49db-bbc2-86f7baf773d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{9d546a11-b3e1-4691-a74a-3954237f1354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain\D3D">
+      <UniqueIdentifier>{26456898-9d12-4b17-8e55-c69308dce6bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain\LIB">
+      <UniqueIdentifier>{b79ce799-4fb7-408e-9d7f-7db829a018c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain\D3D\Headers">
+      <UniqueIdentifier>{a35f0dfe-3cd4-4fb3-89e2-8c9cfe425161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain\D3D\Sources">
+      <UniqueIdentifier>{3af0b159-ee12-48d6-be05-577f07839660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain\LIB\Headers">
+      <UniqueIdentifier>{c5e97996-c031-43c0-888c-5909269b7c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain\LIB\Sources">
+      <UniqueIdentifier>{322020e8-8ddd-4f51-bd22-f9f6b8f8b45a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core.h">
+      <Filter>Core\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TEMPLATE.h" />
+    <ClInclude Include="Export.h">
+      <Filter>Utilities\Diverse\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CEList.h">
+      <Filter>Utilities\Diverse\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CEString.h">
+      <Filter>Utilities\Diverse\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Utilities\Diverse\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Utilities\Diverse\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectCreator.h">
+      <Filter>Utilities\Diverse\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Utilities\Diverse\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPtr.h">
+      <Filter>Utilities\Diverse\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartPtrPolices.h">
+      <Filter>Utilities\Diverse\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Utilities\Diverse\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Utilities\Diverse\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Utilities\Debug\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Status.h">
+      <Filter>Utilities\Debug\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Utilities\Debug\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions.h">
+      <Filter>Utilities\Debug\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Errors.h">
+      <Filter>Utilities\Debug\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Threads.h">
+      <Filter>Utilities\Multithread\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Synchronization.h">
+      <Filter>Utilities\Multithread\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DEntry.h">
+      <Filter>Core\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DClasses.h">
+      <Filter>Core\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRWDColor.h">
+      <Filter>Utilities\Maths\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRWDFunctions.h">
+      <Filter>Utilities\Maths\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRWDIntersection.h">
+      <Filter>Utilities\Maths\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRWDMath.h">
+      <Filter>Utilities\Maths\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRWDMatrix.h">
+      <Filter>Utilities\Maths\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRWDPerlinNoise.h">
+      <Filter>Utilities\Maths\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRWDPlane.h">
+      <Filter>Utilities\Maths\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRWDPoint.h">
+      <Filter>Utilities\Maths\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRWDPolynome.h">
+      <Filter>Utilities\Maths\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRWDQuaternion.h">
+      <Filter>Utilities\Maths\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRWDRandom.h">
+      <Filter>Utilities\Maths\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRWDRectangle.h">
+      <Filter>Utilities\Maths\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRWDSurfaces.h">
+      <Filter>Utilities\Maths\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRWDTgtBitangent.h">
+      <Filter>Utilities\Maths\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRWDTree.h">
+      <Filter>Utilities\Maths\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRWDValueNoise.h">
+      <Filter>Utilities\Maths\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRWDVolumes.h">
+      <Filter>Utilities\Maths\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CRWDVector.h">
+      <Filter>Utilities\Maths\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Render\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Render\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LoaderManager.h">
+      <Filter>Resources\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CPM.h">
+      <Filter>Resources\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>Resources\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Resources\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D10Renderer.h">
+      <Filter>Render\D3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D10Formats.h">
+      <Filter>Render\D3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D10Input.h">
+      <Filter>Input\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Input\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Scene\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.h">
+      <Filter>Scene\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResizeTexture.h">
+      <Filter>Render\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D10Font.h">
+      <Filter>Render\D3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D10Passes.h">
+      <Filter>Render\D3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D10MeshLoader.h">
+      <Filter>Resources\D3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Resources\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Render\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderInfo.h">
+      <Filter>Render\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Formats.h">
+      <Filter>Render\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Resources\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Resources\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryScene.h">
+      <Filter>Render\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights.h">
+      <Filter>Render\Lights\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>Render\Lights\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="LightScene.h">
+      <Filter>Render\Lights\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadersLibrary.h">
+      <Filter>Render\Shaders\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainShader.h">
+      <Filter>Render\Shaders\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardShaders.h">
+      <Filter>Render\Shaders\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D10Shaders.h">
+      <Filter>Render\Shaders\D3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D10ShaderFile.h">
+      <Filter>Render\Shaders\D3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderPass.h">
+      <Filter>Render\Passes\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcess.h">
+      <Filter>Render\Passes\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D10PostProcess.h">
+      <Filter>Render\Passes\D3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D10LightScene.h">
+      <Filter>Render\Lights\D3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D10PointLight.h">
+      <Filter>Render\Lights\D3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D10ResizeTexture.h">
+      <Filter>Render\Passes\D3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D10ShadersLibrary.h">
+      <Filter>Render\Shaders\D3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D10TerrainShader.h">
+      <Filter>Render\Shaders\D3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D10Textures.h">
+      <Filter>Resources\D3D\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures.h">
+      <Filter>Resources\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Terrain\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Terrain\LIB\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D10Grid.h">
+      <Filter>Terrain\D3D\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core.cpp">
+      <Filter>Core\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TEMPLATE.cpp" />
+    <ClCompile Include="Window.cpp">
+      <Filter>Utilities\Diverse\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CEString.cpp">
+      <Filter>Utilities\Diverse\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Utilities\Diverse\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Utilities\Diverse\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Errors.cpp">
+      <Filter>Utilities\Debug\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Status.cpp">
+      <Filter>Utilities\Debug\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Exceptions.cpp">
+      <Filter>Utilities\Debug\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Utilities\Debug\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Synchronization.cpp">
+      <Filter>Utilities\Multithread\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Threads.cpp">
+      <Filter>Utilities\Multithread\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DEntry.cpp">
+      <Filter>Core\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CRWDPerlinNoise.cpp">
+      <Filter>Utilities\Maths\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CRWDRandom.cpp">
+      <Filter>Utilities\Maths\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CRWDValueNoise.cpp">
+      <Filter>Utilities\Maths\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Render\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Render\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CRWDMatrix.cpp">
+      <Filter>Utilities\Maths\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="LoaderManager.cpp">
+      <Filter>Resources\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Resources\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>Resources\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D10Renderer.cpp">
+      <Filter>Render\D3D\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D10Formats.cpp">
+      <Filter>Render\D3D\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D10Input.cpp">
+      <Filter>Input\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Input\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseScene.cpp">
+      <Filter>Scene\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Scene\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ResizeTexture.cpp">
+      <Filter>Render\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D10Font.cpp">
+      <Filter>Render\D3D\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D10Passes.cpp">
+      <Filter>Render\D3D\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D10MeshLoader.cpp">
+      <Filter>Resources\D3D\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Render\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderInfo.cpp">
+      <Filter>Render\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Formats.cpp">
+      <Filter>Render\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Resources\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Resources\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryScene.cpp">
+      <Filter>Render\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>Render\Lights\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Lights.cpp">
+      <Filter>Render\Lights\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="LightScene.cpp">
+      <Filter>Render\Lights\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainShader.cpp">
+      <Filter>Render\Shaders\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="StandardShaders.cpp">
+      <Filter>Render\Shaders\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadersLibrary.cpp">
+      <Filter>Render\Shaders\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D10ShaderFile.cpp">
+      <Filter>Render\Shaders\D3D\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D10Shaders.cpp">
+      <Filter>Render\Shaders\D3D\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPass.cpp">
+      <Filter>Render\Passes\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcess.cpp">
+      <Filter>Render\Passes\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D10PostProcess.cpp">
+      <Filter>Render\Passes\D3D\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D10LightScene.cpp">
+      <Filter>Render\Lights\D3D\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D10PointLight.cpp">
+      <Filter>Render\Lights\D3D\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D10ResizeTexture.cpp">
+      <Filter>Render\Passes\D3D\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D10ShadersLibrary.cpp">
+      <Filter>Render\Shaders\D3D\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D10TerrainShader.cpp">
+      <Filter>Render\Shaders\D3D\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D10Textures.cpp">
+      <Filter>Resources\D3D\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Textures.cpp">
+      <Filter>Resources\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Terrain\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Terrain\LIB\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D10Grid.cpp">
+      <Filter>Terrain\D3D\Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CEList.inl">
+      <Filter>Utilities\Diverse\Sources</Filter>
+    </None>
+    <None Include="SmartPtr.inl">
+      <Filter>Utilities\Diverse\Sources</Filter>
+    </None>
+    <None Include="Synchronization.inl">
+      <Filter>Utilities\Multithread\Sources</Filter>
+    </None>
+    <None Include="CRWDColor.inl">
+      <Filter>Utilities\Maths\Sources</Filter>
+    </None>
+    <None Include="CRWDVolumes.inl">
+      <Filter>Utilities\Maths\Sources</Filter>
+    </None>
+    <None Include="CRWDFunctions.inl">
+      <Filter>Utilities\Maths\Sources</Filter>
+    </None>
+    <None Include="CRWDIntersection.inl">
+      <Filter>Utilities\Maths\Sources</Filter>
+    </None>
+    <None Include="CRWDMath.inl">
+      <Filter>Utilities\Maths\Sources</Filter>
+    </None>
+    <None Include="CRWDMatrix.inl">
+      <Filter>Utilities\Maths\Sources</Filter>
+    </None>
+    <None Include="CRWDPlane.inl">
+      <Filter>Utilities\Maths\Sources</Filter>
+    </None>
+    <None Include="CRWDPoint.inl">
+      <Filter>Utilities\Maths\Sources</Filter>
+    </None>
+    <None Include="CRWDPolynome.inl">
+      <Filter>Utilities\Maths\Sources</Filter>
+    </None>
+    <None Include="CRWDQuaternion.inl">
+      <Filter>Utilities\Maths\Sources</Filter>
+    </None>
+    <None Include="CRWDRectangle.inl">
+      <Filter>Utilities\Maths\Sources</Filter>
+    </None>
+    <None Include="CRWDSurface.inl">
+      <Filter>Utilities\Maths\Sources</Filter>
+    </None>
+    <None Include="CRWDTree.inl">
+      <Filter>Utilities\Maths\Sources</Filter>
+    </None>
+    <None Include="CRWDVector.inl">
+      <Filter>Utilities\Maths\Sources</Filter>
+    </None>
+    <None Include="BaseScene.inl">
+      <Filter>Scene\Sources</Filter>
+    </None>
+    <None Include="CommonFunctions.fx">
+      <Filter>Render\FX</Filter>
+    </None>
+    <None Include="LightPass.fx">
+      <Filter>Render\FX</Filter>
+    </None>
+    <None Include="PointLight.fx">
+      <Filter>Render\FX</Filter>
+    </None>
+    <None Include="PostGeometry.fx">
+      <Filter>Render\FX</Filter>
+    </None>
+    <None Include="PostProcess.fx">
+      <Filter>Render\FX</Filter>
+    </None>
+    <None Include="RenderSun.fx">
+      <Filter>Render\FX</Filter>
+    </None>
+    <None Include="ResizeTexture.fx">
+      <Filter>Render\FX</Filter>
+    </None>
+    <None Include="ShadowMap.fx">
+      <Filter>Render\FX</Filter>
+    </None>
+    <None Include="Standard.fx">
+      <Filter>Render\FX</Filter>
+    </None>
+    <None Include="Terrain.fx">
+      <Filter>Render\FX</Filter>
+    </None>
+    <None Include="World.fx">
+      <Filter>Render\FX</Filter>
+    </None>
+    <None Include="TerrainShadow.fx">
+      <Filter>Render\FX</Filter>
+    </None>
+    <None Include="ShadowPass.fx">
+      <Filter>Render\FX</Filter>
+    </None>
+  </ItemGroup>
+</Project>

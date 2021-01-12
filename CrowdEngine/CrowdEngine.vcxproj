@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{77EA8E4A-85D6-4435-BC77-F6CBAC8B51DF}</ProjectGuid>
+    <RootNamespace>CrowdEngine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <TargetExt>.dll</TargetExt>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;C:\Program Files %28x86%29\Microsoft Visual Studio 10.0\VC\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WIN32;CRWD_LIBRARY;CRWD_DIRECT3D;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d10.lib;DxErr.lib;d3dx10d.lib;d3dcompiler.lib;dinput8.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_NDEBUG;_WIN32;CRWD_LIBRARY;CRWD_DIRECT3D;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d10.lib;DxErr.lib;d3dx10.lib;d3dcompiler.lib;dinput8.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseScene.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CEList.h" />
+    <ClInclude Include="CEString.h" />
+    <ClInclude Include="Core.h" />
+    <ClInclude Include="CPM.h" />
+    <ClInclude Include="CRWDColor.h" />
+    <ClInclude Include="CRWDFunctions.h" />
+    <ClInclude Include="CRWDIntersection.h" />
+    <ClInclude Include="CRWDMath.h" />
+    <ClInclude Include="CRWDMatrix.h" />
+    <ClInclude Include="CRWDPerlinNoise.h" />
+    <ClInclude Include="CRWDPlane.h" />
+    <ClInclude Include="CRWDPoint.h" />
+    <ClInclude Include="CRWDPolynome.h" />
+    <ClInclude Include="CRWDQuaternion.h" />
+    <ClInclude Include="CRWDRandom.h" />
+    <ClInclude Include="CRWDRectangle.h" />
+    <ClInclude Include="CRWDSurfaces.h" />
+    <ClInclude Include="CRWDTgtBitangent.h" />
+    <ClInclude Include="CRWDTree.h" />
+    <ClInclude Include="CRWDValueNoise.h" />
+    <ClInclude Include="CRWDVector.h" />
+    <ClInclude Include="CRWDVolumes.h" />
+    <ClInclude Include="D3D10Grid.h" />
+    <ClInclude Include="D3D10LightScene.h" />
+    <ClInclude Include="D3D10MeshLoader.h" />
+    <ClInclude Include="D3D10Font.h" />
+    <ClInclude Include="D3D10Formats.h" />
+    <ClInclude Include="D3D10Input.h" />
+    <ClInclude Include="D3D10Passes.h" />
+    <ClInclude Include="D3D10PointLight.h" />
+    <ClInclude Include="D3D10PostProcess.h" />
+    <ClInclude Include="D3D10Renderer.h" />
+    <ClInclude Include="D3D10ResizeTexture.h" />
+    <ClInclude Include="D3D10ShaderFile.h" />
+    <ClInclude Include="D3D10Shaders.h" />
+    <ClInclude Include="D3D10ShadersLibrary.h" />
+    <ClInclude Include="D3D10TerrainShader.h" />
+    <ClInclude Include="D3D10Textures.h" />
+    <ClInclude Include="D3DClasses.h" />
+    <ClInclude Include="D3DEntry.h" />
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Errors.h" />
+    <ClInclude Include="Exceptions.h" />
+    <ClInclude Include="Export.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="Formats.h" />
+    <ClInclude Include="GeometryScene.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Interface.h" />
+    <ClInclude Include="Lights.h" />
+    <ClInclude Include="LightScene.h" />
+    <ClInclude Include="Loader.h" />
+    <ClInclude Include="LoaderManager.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Misc.h" />
+    <ClInclude Include="ObjectCreator.h" />
+    <ClInclude Include="PointLight.h" />
+    <ClInclude Include="PostProcess.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="RenderInfo.h" />
+    <ClInclude Include="RenderPass.h" />
+    <ClInclude Include="ResizeTexture.h" />
+    <ClInclude Include="Resources.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="ShadersLibrary.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="SmartPtr.h" />
+    <ClInclude Include="SmartPtrPolices.h" />
+    <ClInclude Include="StandardShaders.h" />
+    <ClInclude Include="Status.h" />
+    <ClInclude Include="Synchronization.h" />
+    <ClInclude Include="TEMPLATE.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="TerrainShader.h" />
+    <ClInclude Include="Textures.h" />
+    <ClInclude Include="Threads.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseScene.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CEString.cpp" />
+    <ClCompile Include="Core.cpp" />
+    <ClCompile Include="CRWDMatrix.cpp" />
+    <ClCompile Include="CRWDPerlinNoise.cpp" />
+    <ClCompile Include="CRWDRandom.cpp" />
+    <ClCompile Include="CRWDValueNoise.cpp" />
+    <ClCompile Include="D3D10Grid.cpp" />
+    <ClCompile Include="D3D10LightScene.cpp" />
+    <ClCompile Include="D3D10MeshLoader.cpp" />
+    <ClCompile Include="D3D10Font.cpp" />
+    <ClCompile Include="D3D10Formats.cpp" />
+    <ClCompile Include="D3D10Input.cpp" />
+    <ClCompile Include="D3D10Passes.cpp" />
+    <ClCompile Include="D3D10PointLight.cpp" />
+    <ClCompile Include="D3D10PostProcess.cpp" />
+    <ClCompile Include="D3D10Renderer.cpp" />
+    <ClCompile Include="D3D10ResizeTexture.cpp" />
+    <ClCompile Include="D3D10ShaderFile.cpp" />
+    <ClCompile Include="D3D10Shaders.cpp" />
+    <ClCompile Include="D3D10ShadersLibrary.cpp" />
+    <ClCompile Include="D3D10TerrainShader.cpp" />
+    <ClCompile Include="D3D10Textures.cpp" />
+    <ClCompile Include="D3DEntry.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Errors.cpp" />
+    <ClCompile Include="Exceptions.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="Formats.cpp" />
+    <ClCompile Include="GeometryScene.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="Lights.cpp" />
+    <ClCompile Include="LightScene.cpp" />
+    <ClCompile Include="Loader.cpp" />
+    <ClCompile Include="LoaderManager.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="PointLight.cpp" />
+    <ClCompile Include="PostProcess.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="RenderInfo.cpp" />
+    <ClCompile Include="RenderPass.cpp" />
+    <ClCompile Include="ResizeTexture.cpp" />
+    <ClCompile Include="Resources.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="ShadersLibrary.cpp" />
+    <ClCompile Include="StandardShaders.cpp" />
+    <ClCompile Include="Status.cpp" />
+    <ClCompile Include="Synchronization.cpp" />
+    <ClCompile Include="TEMPLATE.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="TerrainShader.cpp" />
+    <ClCompile Include="Textures.cpp" />
+    <ClCompile Include="Threads.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BaseScene.inl" />
+    <None Include="CEList.inl" />
+    <None Include="CommonFunctions.fx" />
+    <None Include="CRWDColor.inl" />
+    <None Include="CRWDFunctions.inl" />
+    <None Include="CRWDIntersection.inl" />
+    <None Include="CRWDMath.inl" />
+    <None Include="CRWDMatrix.inl" />
+    <None Include="CRWDPlane.inl" />
+    <None Include="CRWDPoint.inl" />
+    <None Include="CRWDPolynome.inl" />
+    <None Include="CRWDQuaternion.inl" />
+    <None Include="CRWDRectangle.inl" />
+    <None Include="CRWDSurface.inl" />
+    <None Include="CRWDTree.inl" />
+    <None Include="CRWDVector.inl" />
+    <None Include="CRWDVolumes.inl" />
+    <None Include="LightPass.fx" />
+    <None Include="PointLight.fx" />
+    <None Include="PostGeometry.fx" />
+    <None Include="PostProcess.fx" />
+    <None Include="RenderSun.fx" />
+    <None Include="ResizeTexture.fx" />
+    <None Include="ShadowPass.fx" />
+    <None Include="ShadowMap.fx" />
+    <None Include="SmartPtr.inl" />
+    <None Include="Standard.fx" />
+    <None Include="Synchronization.inl" />
+    <None Include="Terrain.fx" />
+    <None Include="TerrainShadow.fx" />
+    <None Include="World.fx" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

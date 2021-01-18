@@ -1,8 +1,7 @@
 # CrowdEngine
-
 A real-time 3D rendering engine.
 
-I developed this engine as a high-school student, at a
+I developed this engine as a high-school student project, at a
 time when I was especially fond of computer graphics. 3D graphics is actually
 the reason why I discovered computer programming in the first place, because
 while using tools like [Blender](https://www.blender.org/) I got

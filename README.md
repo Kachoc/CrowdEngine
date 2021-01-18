@@ -13,8 +13,9 @@ the engine library. The engine uses C++ and
 an extensible pipeline based on [deferred rendering](https://en.wikipedia.org/wiki/Deferred_shading).
 
 Of course, implementing a full real-time engine is a tremendous
-task, and things got even more complicated because I reimplemented a lot of
-basic utilities, following my desire to understand as many things as possible, 
+task, and things got even more complicated because following my desire to
+understand as many things as possible I reimplemented a lot of
+basic utilities.
 Despite this, 10k lines of code down the road I had managed to get a
 handful of functionalities, including an elementary pipeline and foundations for
 my shader library, basic resource management, scene management,
